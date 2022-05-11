@@ -1,0 +1,80 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> <!-- O live server instalado inicialmente é o responsável por fazer toda a inclusão de novos dados inserido no body, sem a necessidade de save e debug-->
+
+    <div class="header">
+
+        <h3>CONTACT</h3>
+        <p>
+
+            If you have some sugestion or interest in some course, please <br>
+            talk if our team
+
+        </p>
+
+        <a href="http://api.whatsapp.com/send?phone= 5541998358652" target="_blank">
+            Talk in our whatsapp
+        </a>
+
+    </div>
+    
+    <div class="card">
+
+        <form action="/way/destiny" method="get">
+
+            <div class="form-group"> 
+                <label> Name </label>
+                <input type="text" placeholder="name*" name="name" required>
+                
+            </div>
+
+            <div class="form-group"> 
+                <label> Email </label>
+                <input type="text" placeholder="email*" email="Email" required>
+                
+            </div>
+
+            <div class="form-group"> 
+                <label> Phone </label>
+                <input type="text" placeholder="phone*" phone="Phone" required>
+                
+            </div>
+
+            <div class="form-group"> 
+                <label> City </label>
+                <input type="text" placeholder="city*" city="City" required>
+                
+            </div>
+
+            <div class="form-group"> 
+                <label> Course Option </label>
+                <select name="course">
+                    <option value="python"> developer Python</option>
+                    <option value="java">React JS</option>
+                    <option value=".net"> developer C#</option>
+                </select>
+
+            </div>
+
+            <div class="form-group"> 
+                <label> Message </label>
+                <textarea name="Message"></textarea>
+    
+            </div>
+
+            <div class="buttondiv">
+                <button type="submit">Send</button>
+            </div>
+                
+
+        </form>
+
+    </div>
+</body>
+</html>
